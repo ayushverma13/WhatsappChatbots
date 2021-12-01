@@ -27,11 +27,11 @@ class wa_twillio():
     def __init__(self, json , values):
         self.json = json
         self.values = values
-        self.account_sid = "AC926cb1e381c580a793aaadf5283f75de"
-        self.auth_token = "220f0c0524be20098f05a96118990e01"
-        self.inbound_url = "https://intelligentsalesman.com/ism1/test/insertInboundWhatsappDataTest"
-        self.deliveryAndEngagement_url = "https://intelligentsalesman.com/ism1/test/updateWhatsappDeliveryStatus"
-        self.posttestingurl = "https://17c298f6b88d.ngrok.io/testingpost"
+        self.account_sid = ""
+        self.auth_token = ""
+        self.inbound_url = ""
+        self.deliveryAndEngagement_url = ""
+        self.posttestingurl = ""
     
     
     
